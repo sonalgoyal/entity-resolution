@@ -1,0 +1,25 @@
+id,first_name,last_name,email,phone,dob,address,city,postcode
+P001,Maria,Gonzalez,maria.gonzalez@example.com,+1 415 555 0101,1985-02-14,12 Oak Street,San Francisco,94110
+P002,Maria,Gonzaalez,maria.gonzalez@example.com,+1 415 555 0101,1985-02-14,12 Oak Street,SAN FRANCISCO,94110
+P003,James,O'Neill,jim.oneill@example.org,(212) 555-0144,1979-11-03,800 Broadway Apt 4,New York,10003
+P004,Jim,O'Neill,jim.oneill@example.org,(212) 555-0144,1979-11-03,800 Broadway Apt 4,New York,10003
+P005,James,ONeill,jim.oneill@example.org,(212) 555-0144,1979-11-03,800 Broadway Apt 4,New York,10003
+P006,Priya,Raman,priya.r@example.net,+1 650 555 0190,1992-07-21,45 Elm Ave,Palo Alto,94301
+P007,Chen,Wei,chen.wei@example.com,+1 206 555 0133,1988-05-30,9 Pine Rd,Seattle,98101
+P008,Fatima,Al-Sayed,fatima.alsayed@example.com,+1 312 555 0177,1990-09-09,300 Lake Shore Dr,Chicago,60611
+P009,Robert,Smith,bob.smith@example.com,+1 617 555 0112,1975-01-01,77 Beacon St,Boston,02108
+P010,Robert,Smith,bob.smith@example.com,+1 617 555 0112,1975-01-01,77 Beacon Street,BOSTON,02108
+P011,Robert,Smith,bob.smith@example.com,+1 617 555 0112,1975-01-01,77 Beacon St,BOSTON,02108-1234
+P012,Robert,Smith,rsmith72@example.org,+1 503 555 0165,1972-12-19,5 Hawthorne Blvd,Portland,97214
+P013,Olivia,Brown,olivia.brown@example.com,+1 303 555 0188,1995-03-11,1600 Glenarm Pl,Denver,80202
+P014,Olivia,Brown,,+1 303 555 0188,1995-03-11,1600 Glenarm Pl,Denver,80202
+P015,Liv,Brown,olivia.brown@example.com,+1 303 555 0188,1995-03-11,1600 Glenarm Pl,Denver,80202
+P016,Lukas,Novak,lukas.novak@example.com,+1 512 555 0129,1983-08-25,210 Congress Ave,Austin,78701
+P017,Aisha,Bello,aisha.bello@example.net,+1 404 555 0156,1987-06-17,88 Peachtree St,Atlanta,30303
+P018,Aisha,Bello,aisha.bello@example.net,+1 404 555 0156,1987-06-17,88 Peachtree St,ATLANTA,30303
+P019,Aisah,Bello,aisha.bello@example.net,+1 404 555 0156,1987-06-17,88 Peachtree St,Atlanta,30303
+P020,Daniel,Kim,dan.kim@example.com,+1 213 555 0171,1991-10-05,400 Spring St,Los Angeles,90013
+P021,Daniel,Kim,dan.kim@example.com,+1 213 555 0171,1991-10-05,400 Spring St,LOS ANGELES,90013
+P022,Daniel,Kim,dan.kim@example.com,+1 213 555 0171,1991-10-05,400 Spring St,Los Angeles,90013-1234
+P023,Sofia,Rossi,sofia.rossi@example.org,+1 305 555 0149,1989-04-02,1200 Brickell Ave,Miami,33131
+P024,Sofaia,Rossi,sofia.rossi@example.org,+1 305 555 0149,1989-04-02,1200 Brickell Ave,Miami,33131

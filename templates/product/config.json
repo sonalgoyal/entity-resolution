@@ -1,0 +1,73 @@
+{
+  "fieldDefinition": [
+    {
+      "fieldName": "id",
+      "fields": "id",
+      "dataType": "string",
+      "matchType": "dont_use"
+    },
+    {
+      "fieldName": "title",
+      "fields": "title",
+      "dataType": "string",
+      "matchType": "fuzzy,numeric_with_units"
+    },
+    {
+      "fieldName": "brand",
+      "fields": "brand",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "model_number",
+      "fields": "model_number",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "description",
+      "fields": "description",
+      "dataType": "string",
+      "matchType": "text"
+    },
+    {
+      "fieldName": "price",
+      "fields": "price",
+      "dataType": "double",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "gtin",
+      "fields": "gtin",
+      "dataType": "string",
+      "matchType": "exact,null_or_blank"
+    }
+  ],
+  "data": [
+    {
+      "name": "product",
+      "format": "csv",
+      "props": {
+        "path": "/templates/product/sample.csv",
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": "id string, title string, brand string, model_number string, description string, price double, gtin string"
+    }
+  ],
+  "output": [
+    {
+      "name": "output",
+      "format": "csv",
+      "props": {
+        "path": "/tmp/product-resolved",
+        "delimiter": ",",
+        "header": true
+      }
+    }
+  ],
+  "labelDataSampleSize": 0.5,
+  "numPartitions": 4,
+  "modelId": "product-template",
+  "zinggDir": "/tmp/zingg-models"
+}

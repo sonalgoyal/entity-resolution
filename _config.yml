@@ -1,0 +1,69 @@
+# GitHub Pages site: https://sonalgoyal.github.io/entity-resolution/
+title: Entity Resolution
+description: >-
+  A practical guide to entity resolution, plus a curated list of open-source
+  entity resolution, record linkage and deduplication tools, datasets and papers.
+url: https://sonalgoyal.github.io
+baseurl: /entity-resolution
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-readme-index
+relative_links:
+  enabled: true
+  collections: false
+titles_from_headings:
+  enabled: true
+  strip_title: false
+readme_index:
+  enabled: true
+  with_frontmatter: true
+search_enabled: true
+aux_links:
+  "GitHub": https://github.com/sonalgoyal/entity-resolution
+  "Zingg": https://github.com/zinggAI/zingg
+gh_edit_link: true
+gh_edit_repository: https://github.com/sonalgoyal/entity-resolution
+gh_edit_branch: main
+gh_edit_view_mode: edit
+exclude:
+  - "tutorials/*/data/"
+  - CONTRIBUTING.md
+  - LICENSE
+  - LICENSE-CODE
+
+# Page titles, order and search descriptions live here, not in front matter,
+# so the Markdown files render cleanly on github.com.
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+  - scope: { path: "README.md" }
+    values: { title: "Home", nav_order: 1, permalink: / }
+  - scope: { path: "docs/what-is-entity-resolution.md" }
+    values: { nav_order: 2, description: "Entity resolution explained: what it is, why it is hard, the five-step pipeline, and where it is used." }
+  - scope: { path: "docs/blocking.md" }
+    values: { nav_order: 3, description: "Blocking in entity resolution: why you need it, standard techniques, learned blocking, and how to check you are not missing matches." }
+  - scope: { path: "docs/matching-approaches.md" }
+    values: { nav_order: 4, description: "Deterministic rules, probabilistic Fellegi-Sunter, machine learning, deep learning and LLM approaches to entity matching compared." }
+  - scope: { path: "docs/active-learning.md" }
+    values: { nav_order: 5, description: "How active learning builds entity resolution training data from a few dozen labelled pairs, and how to label well." }
+  - scope: { path: "docs/evaluating-entity-resolution.md" }
+    values: { nav_order: 6, description: "How to measure entity resolution quality: pairwise and cluster precision and recall, building a ground-truth sample, and common mistakes." }
+  - scope: { path: "docs/entity-resolution-vs-mdm.md" }
+    values: { nav_order: 7, description: "How entity resolution relates to master data management, identity resolution, customer data platforms and entity linking." }
+  - scope: { path: "docs/glossary.md" }
+    values: { nav_order: 8, description: "Glossary of entity resolution and record linkage terms, from active learning to survivorship." }
+  - scope: { path: "tutorials/01-deduplicate-customer-records" }
+    values: { nav_order: 10, description: "Step-by-step tutorial: find duplicate customer records with open-source entity resolution (Zingg), active learning and Docker." }
+  - scope: { path: "tutorials/02-link-two-customer-lists" }
+    values: { nav_order: 11, description: "Record linkage tutorial: match customers across two systems with open-source entity resolution." }
+  - scope: { path: "tutorials/03-match-products-across-stores" }
+    values: { nav_order: 12, description: "Product matching tutorial: link Amazon and Google Shopping listings with open-source entity resolution." }
+  - scope: { path: "tutorials/04-evaluate-your-results" }
+    values: { nav_order: 13, description: "Compute precision, recall and F1 for entity resolution output from Zingg, Splink, dedupe or any tool." }
+  - scope: { path: "templates" }
+    values: { nav_order: 20 }

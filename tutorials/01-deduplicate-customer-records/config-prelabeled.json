@@ -1,0 +1,109 @@
+{
+  "fieldDefinition": [
+    {
+      "fieldName": "id",
+      "fields": "id",
+      "dataType": "string",
+      "matchType": "dont_use"
+    },
+    {
+      "fieldName": "fname",
+      "fields": "fname",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "lname",
+      "fields": "lname",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "stNo",
+      "fields": "stNo",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "add1",
+      "fields": "add1",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "add2",
+      "fields": "add2",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "city",
+      "fields": "city",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "areacode",
+      "fields": "areacode",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "state",
+      "fields": "state",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "dob",
+      "fields": "dob",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "ssn",
+      "fields": "ssn",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    }
+  ],
+  "data": [
+    {
+      "name": "customers",
+      "format": "csv",
+      "props": {
+        "path": "examples/febrl/test.csv",
+        "delimiter": ",",
+        "header": false
+      },
+      "schema": "id string, fname string, lname string, stNo string, add1 string, add2 string, city string, areacode string, state string, dob string, ssn string"
+    }
+  ],
+  "output": [
+    {
+      "name": "output",
+      "format": "csv",
+      "props": {
+        "path": "/tmp/customers-deduped",
+        "delimiter": ",",
+        "header": true
+      }
+    }
+  ],
+  "labelDataSampleSize": 0.5,
+  "numPartitions": 4,
+  "modelId": "customers-prelabeled",
+  "zinggDir": "/tmp/zingg-models",
+  "trainingSamples": [
+    {
+      "name": "prelabeled",
+      "format": "csv",
+      "props": {
+        "path": "examples/febrl/training.csv",
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": "z_cluster string, z_isMatch integer, fname string, lname string, stNo string, add1 string, add2 string, city string, areacode string, state string, dob string, ssn string"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+id,name,website,registration_id,address,city,postcode,country
+C001,Acme Corporation,acme.example,C1234567,1 Market St,San Francisco,94105,US
+C002,ACME CORPORATION,acme.example,C1234567,1 Market St,San Francisco,94105,US
+C003,Acme Corporation,acme.example,,1 Market St,San Francisco,94105,US
+C004,Globex GmbH,globex.example,HRB 98765,Friedrichstrasse 10,Berlin,10117,DE
+C005,Globex GmbH,https://www.globex.example/,HRB 98765,Friedrichstrasse 10,Berlin,10117,DE
+C006,Globex GmbH,globex.example,,Friedrichstrasse 10,Berlin,10117,DE
+C007,Initech Ltd,initech.example,04567890,221 Baker Street,London,NW1 6XE,GB
+C008,Initech Ltd,initech.example,,221 Baker Street,London,NW1 6XE,GB
+C009,Umbrella Pharmaceuticals Inc,umbrellapharma.example,C7654321,500 Research Pkwy,Raleigh,27601,US
+C010,Umbrella Pharmaceuticals Inc,umbrellapharma.example,,500 Research Pkwy,Raleigh,27601,US
+C011,Umbrella Parmaceuticals Inc,umbrellapharma.example,C7654321,500 Research Pkwy,Raleigh,27601,US
+C012,Stark Industries,starkindustries.example,C1112223,10880 Malibu Point,Malibu,90265,US
+C013,STARK INDUSTRIES,starkindustries.example,C1112223,10880 Malibu Point,Malibu,90265,US
+C014,Wayne Enterprises Inc,wayne-ent.example,C3334445,1007 Mountain Dr,Gotham,10001,US
+C015,Wayne Enterprises Inc,https://www.wayne-ent.example/,C3334445,1007 Mountain Dr,Gotham,10001,US
+C016,Soylent Foods SA,soylent.example,552 100 554,12 Rue de Rivoli,Paris,75001,FR
+C017,Soylent Foods SA,https://www.soylent.example/,552 100 554,12 Rue de Rivoli,Paris,75001,FR
+C018,Hooli Inc,hooli.example,C9998887,1401 N Shoreline Blvd,Mountain View,94043,US
+C019,Hooli nIc,hooli.example,C9998887,1401 N Shoreline Blvd,Mountain View,94043,US
+C020,Tyrell Systems Pty Ltd,tyrell.example,ACN 123 456 789,1 George St,Sydney,2000,AU
+C021,Tyrell Systems Pty Ltd,https://www.tyrell.example/,ACN 123 456 789,1 George St,Sydney,2000,AU
+C022,Cyberdyne Systems Corp,cyberdyne.example,C5556667,18144 El Camino Real,Sunnyvale,94087,US
+C023,Cyberdyne Systems Corp,cyberdyne.example,C5556667,18144 El Camino Real,Sunnyvale,94087,US
+C024,Atlas Textiles SAS,atlastextiles.example,FR293630,263 King Street,Lyon,69002,FR
+C025,Atlas Textiles SAS,https://www.atlastextiles.example/about,FR293630,263 King Street,Lyon,69002,FR
+C026,ATLAS TEXTILES SAS,atlastextiles.example,FR293630,263 King Street,Lyon,69002,FR
+C027,Bright Energy GmbH,brightenergy.example,DE664861,22 Station Road,Munich,80331,DE
+C028,Bright Energy GmbH,brightenergy.example,DE664861,22 Station Rd,Munich,80331,DE
+C029,Orion Foods Pvt Ltd,orionfoods.example,IN162443,19 Rue Victor Hugo,Pune,411001,IN
+C030,Orion Foods Pvt Ltd,https://www.orionfoods.example/about,IN162443,19 Rue Victor Hugo,Pune,411001,IN
+C031,Blue Energy AG,blueenergy.example,DE644341,120 MG Road,Munich,80331,DE
+C032,Blue Energy,blueenergy.example,DE644341,120 MG Road,Munich,80331,DE
+C033,Silver Energy AG,silverenergy.example,DE842192,131 Market St,Munich,80331,DE
+C034,Silver Energy AG,https://www.silverenergy.example/about,DE842192,131 Market St,Munich,80331,DE
+C035,Maple Analytics Corp,mapleanalytics.example,US519849,56 MG Road,San Jose,95113,US
+C036,Maple Analytics,mapleanalytics.example,US519849,56 MG Road,San Jose,95113,US
+C037,Blue Analytics Ltd,blueanalytics.example,GB592817,193 Station Road,Manchester,M1 1AE,GB
+C038,Blue Analytics,blueanalytics.example,GB592817,193 Station Road,Manchester,M1 1AE,GB
+C039,Lumen Robotics AG,lumenrobotics.example,DE426326,171 Main St,Munich,80331,DE
+C040,Lumen Robotics,lumenrobotics.example,DE426326,171 Main St,Munich,80331,DE
+C041,Granite Robotics Inc,graniterobotics.example,US587524,250 Hauptstrasse,San Jose,95113,US
+C042,Granite Robotics Inc,https://www.graniterobotics.example/about,US587524,250 Hauptstrasse,San Jose,95113,US
+C043,GRANITE ROBOTICS INC,graniterobotics.example,US587524,250 Hauptstrasse,San Jose,95113,US
+C044,Harbor Foods SAS,harborfoods.example,FR514033,216 Rue Victor Hugo,Lyon,69002,FR
+C045,Harbor Foods SSA,harborfoods.example,FR514033,216 Rue Victor Hugo,Lyon,69002,FR
+C046,Lumen Capital Inc,lumencapital.example,US513426,296 High Street,San Jose,95113,US
+C047,LUMEN CAPITAL INC,lumencapital.example,US513426,296 High Street,San Jose,95113,US
+C048,Harbor Energy GmbH,harborenergy.example,DE970621,152 Station Road,Hamburg,20095,DE
+C049,Harbor Energy,harborenergy.example,DE970621,152 Station Road,Hamburg,20095,DE
+C050,Silver Robotics Pvt Ltd,silverrobotics.example,IN730491,189 Market St,Pune,411001,IN
+C051,Silver Robotics Pvt Ltd,silverrobotics.example,,189 Market St,Pune,411001,IN
+C052,SILVER ROBOTICS PVT LTD,silverrobotics.example,IN730491,189 Market St,Pune,411001,IN
+C053,Lumen Energy Pvt Ltd,lumenenergy.example,IN291708,79 MG Road,Bengaluru,560001,IN
+C054,Lumen Energy Pvt Ltd,https://www.lumenenergy.example/about,IN291708,79 MG Road,Bengaluru,560001,IN
+C055,Summit Robotics Ltd,summitrobotics.example,GB605954,41 Station Road,Leeds,LS1 4AP,GB
+C056,Summit Robotics,summitrobotics.example,GB605954,41 Station Road,Leeds,LS1 4AP,GB
+C057,Bright Analytics Pvt Ltd,brightanalytics.example,IN875766,201 MG Road,Pune,411001,IN
+C058,Bright Analytics Pvt Ltd,https://www.brightanalytics.example/about,IN875766,201 MG Road,Pune,411001,IN

@@ -1,0 +1,21 @@
+# Entity Resolution
+
+> A practical guide to entity resolution (record linkage, deduplication, data matching, identity resolution), plus a curated list of open-source entity resolution software, datasets, papers, books and tutorials. Maintained by Sonal Goyal, creator of Zingg.
+
+## Guide
+- [What is entity resolution?](https://sonalgoyal.github.io/entity-resolution/docs/what-is-entity-resolution.html): definition, the five-step pipeline (prepare, block, compare, classify, cluster), use cases
+- [Blocking](https://sonalgoyal.github.io/entity-resolution/docs/blocking.html): techniques for avoiding n-squared comparisons, learned vs. hand-written blocking
+- [Matching approaches](https://sonalgoyal.github.io/entity-resolution/docs/matching-approaches.html): deterministic, probabilistic (Fellegi-Sunter), machine learning, deep learning, LLMs
+- [Active learning](https://sonalgoyal.github.io/entity-resolution/docs/active-learning.html): building training data from a few dozen labelled pairs
+- [Evaluating entity resolution](https://sonalgoyal.github.io/entity-resolution/docs/evaluating-entity-resolution.html): pairwise and cluster metrics, common mistakes
+- [Entity resolution vs. MDM vs. identity resolution](https://sonalgoyal.github.io/entity-resolution/docs/entity-resolution-vs-mdm.html)
+- [Glossary](https://sonalgoyal.github.io/entity-resolution/docs/glossary.html)
+
+## Tools and resources
+- [Awesome entity resolution list and tool comparison](https://github.com/sonalgoyal/entity-resolution#readme): open-source tools (Zingg, Splink, dedupe, Python Record Linkage Toolkit, pyJedAI, fastLink and more), datasets, papers and books
+
+## Tutorials
+- [Deduplicate customer records](https://github.com/sonalgoyal/entity-resolution/tree/main/tutorials/01-deduplicate-customer-records)
+- [Link two customer lists](https://github.com/sonalgoyal/entity-resolution/tree/main/tutorials/02-link-two-customer-lists)
+- [Match products across stores](https://github.com/sonalgoyal/entity-resolution/tree/main/tutorials/03-match-products-across-stores)
+- [Evaluate your results](https://github.com/sonalgoyal/entity-resolution/tree/main/tutorials/04-evaluate-your-results)

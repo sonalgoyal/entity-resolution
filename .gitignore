@@ -1,0 +1,7 @@
+# Downloaded tutorial data and local run output
+tutorials/*/data/
+output/
+.DS_Store
+__pycache__/
+_site/
+.jekyll-cache/

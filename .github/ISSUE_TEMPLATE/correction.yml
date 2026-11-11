@@ -1,0 +1,16 @@
+name: Report a mistake
+description: Something in the list, comparison table or guides is wrong or out of date
+labels: [correction]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Page or section
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what is correct? Please include a source.
+    validations:
+      required: true

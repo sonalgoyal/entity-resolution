@@ -1,0 +1,45 @@
+name: Suggest a resource
+description: Suggest a tool, dataset, paper, book or tutorial for the list
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - End-to-end frameworks
+        - Libraries and toolkits
+        - Deep learning and LLM-based matching
+        - Search engine and database-native matching
+        - Blocking and candidate generation
+        - String and phonetic similarity
+        - Data preparation
+        - Clustering and graphs
+        - Labelling and evaluation
+        - Privacy-preserving record linkage
+        - Domain-specific tools
+        - Commercial and managed services
+        - Datasets
+        - Papers
+        - Books
+        - Tutorials, courses and talks
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: One-line description, and why it belongs here
+    validations:
+      required: true

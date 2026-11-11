@@ -1,0 +1,85 @@
+{
+  "fieldDefinition": [
+    {
+      "fieldName": "id",
+      "fields": "id",
+      "dataType": "string",
+      "matchType": "dont_use"
+    },
+    {
+      "fieldName": "first_name",
+      "fields": "first_name",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "last_name",
+      "fields": "last_name",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "email",
+      "fields": "email",
+      "dataType": "string",
+      "matchType": "email,null_or_blank"
+    },
+    {
+      "fieldName": "phone",
+      "fields": "phone",
+      "dataType": "string",
+      "matchType": "numeric,null_or_blank"
+    },
+    {
+      "fieldName": "dob",
+      "fields": "dob",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "address",
+      "fields": "address",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "city",
+      "fields": "city",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "postcode",
+      "fields": "postcode",
+      "dataType": "string",
+      "matchType": "pincode"
+    }
+  ],
+  "data": [
+    {
+      "name": "person",
+      "format": "csv",
+      "props": {
+        "path": "/templates/person/sample.csv",
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": "id string, first_name string, last_name string, email string, phone string, dob string, address string, city string, postcode string"
+    }
+  ],
+  "output": [
+    {
+      "name": "output",
+      "format": "csv",
+      "props": {
+        "path": "/tmp/person-resolved",
+        "delimiter": ",",
+        "header": true
+      }
+    }
+  ],
+  "labelDataSampleSize": 0.5,
+  "numPartitions": 4,
+  "modelId": "person-template",
+  "zinggDir": "/tmp/zingg-models"
+}

@@ -1,0 +1,79 @@
+{
+  "fieldDefinition": [
+    {
+      "fieldName": "id",
+      "fields": "id",
+      "dataType": "string",
+      "matchType": "dont_use"
+    },
+    {
+      "fieldName": "name",
+      "fields": "name",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "website",
+      "fields": "website",
+      "dataType": "string",
+      "matchType": "fuzzy,null_or_blank"
+    },
+    {
+      "fieldName": "registration_id",
+      "fields": "registration_id",
+      "dataType": "string",
+      "matchType": "exact,null_or_blank"
+    },
+    {
+      "fieldName": "address",
+      "fields": "address",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "city",
+      "fields": "city",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "postcode",
+      "fields": "postcode",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "country",
+      "fields": "country",
+      "dataType": "string",
+      "matchType": "exact"
+    }
+  ],
+  "data": [
+    {
+      "name": "company",
+      "format": "csv",
+      "props": {
+        "path": "/templates/company/sample.csv",
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": "id string, name string, website string, registration_id string, address string, city string, postcode string, country string"
+    }
+  ],
+  "output": [
+    {
+      "name": "output",
+      "format": "csv",
+      "props": {
+        "path": "/tmp/company-resolved",
+        "delimiter": ",",
+        "header": true
+      }
+    }
+  ],
+  "labelDataSampleSize": 0.5,
+  "numPartitions": 4,
+  "modelId": "company-template",
+  "zinggDir": "/tmp/zingg-models"
+}

@@ -1,0 +1,3 @@
+- [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md)
+- [ ] Each new entry is in the right section, in the format `- [Name](link) - Description. *(Language)*`
+- [ ] I checked that the links work

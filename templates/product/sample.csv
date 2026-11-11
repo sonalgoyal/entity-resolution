@@ -1,0 +1,68 @@
+id,title,brand,model_number,description,price,gtin
+S001,Sony WH-1000XM4 Wireless Noise Cancelling Headphones,Sony,WH-1000XM4,Over-ear bluetooth headphones with industry leading noise cancellation and 30 hour battery,348.0,2000000000001
+S002,Sony WH-1000XM4 Bluetooth Noise Cancelling Headphones,SONY,WH1000XM4,Over-ear bluetooth headphones with industry leading noise cancellation and 30 hour battery,338.72,2000000000001
+S003,Sony WH-1000XM5 Wireless Noise Cancelling Headphones,Sony,WH-1000XM5,"Over-ear bluetooth headphones with noise cancellation, 30 hour battery and multipoint",399.99,2000000000002
+S004,Sony WH-1000XM5 Bluetooth Noise Cancelling Headphones,Sony,WH1000XM5,Over-ear bluetooth headphones with noise cancellation 30 hour battery and multipoint,409.09,2000000000002
+S005,Apple iPad Air 11-inch M2 128GB Wi-Fi,Apple,MUWD3LL/A,"11 inch Liquid Retina display, M2 chip, 128GB storage, Wi-Fi",599.0,2000000000003
+S006,Apple MUWD3LL/A iPad Air 11-inch M2,APPLE,MUWD3LL/A,11 inch Liquid Retina display M2 chip 128GB storage Wi-Fi,614.57,
+S007,Apple iPad Air 11-inch M2 256GB Wi-Fi,Apple,MUWH3LL/A,"11 inch Liquid Retina display, M2 chip, 256GB storage, Wi-Fi",699.0,2000000000004
+S008,Apple MUWH3LL/A iPad Air 11-inch M2,Apple,MUWH3LL/A,,661.56,2000000000004
+S009,Samsung 980 PRO 1TB NVMe SSD,Samsung,MZ-V8P1T0B/AM,PCIe 4.0 NVMe M.2 internal solid state drive 1TB,109.99,2000000000005
+S010,Samsung 980 PRO 1TB NVMe SSD,SAMSUNG,MZ-V8P1T0B/AM,,110.02,2000000000005
+S011,Samsung 980 PRO 2TB NVMe SSD,Samsung,MZ-V8P2T0B/AM,PCIe 4.0 NVMe M.2 internal solid state drive 2TB,169.99,2000000000006
+S012,Samsung MZ-V8P2T0B/AM 980 PRO 2TB NVMe,SAMSUNG,MZV8P2T0B/AM,PCIe 4.0 NVMe M.2 internal solid state drive 2TB,158.55,2000000000006
+S013,Logitech MX Master 3S Wireless Mouse,Logitech,910-006557,"Performance wireless mouse, 8K DPI, quiet clicks, USB-C",99.99,2000000000007
+S014,Logitech MX Master 3S Bluetooth Mouse,Logitech,910006557,Performance wireless mouse 8K DPI quiet clicks USB-C,91.2,2000000000007
+S015,Anker 737 Power Bank 24000mAh 140W,Anker,A1289,"Portable charger 24,000mAh with 140W output",109.99,2000000000008
+S016,Anker 737 Power Bank 24000mAh 140W,ANKER,A1289,,108.07,
+S017,Kestrel Headphones Gen 1 Pro,Kestrel,KE-176PR,Kestrel headphones generation 1 with Pro and USB-C,1395.98,2000000000101
+S018,Kestrel Headphones Gen 1 32-inch,Kestrel,KE-12632,Kestrel headphones generation 1 with 32-inch and USB-C,734.57,2000000000102
+S019,Kestrel Headphones G1 32-inch,KESTREL,KE12632,,702.56,
+S020,Kestrel Headphones Gen 2 27-inch,Kestrel,KE-21827,Kestrel headphones generation 2 with 27-inch and wireless,634.8,2000000000103
+S021,kestrel headphones gen 2 27-inch,KESTREL,KE21827,Kestrel headphones generation 2 with 27-inch and wireless,614.45,
+S022,Kestrel Headphones Gen 2 64GB,Kestrel,KE-22664,Kestrel headphones generation 2 with 64GB and fast charging,562.35,2000000000104
+S023,Kestrel Headphones Gen 3 10000mAh,Kestrel,KE-38510,Kestrel headphones generation 3 with 10000mAh and fast charging,1387.67,2000000000105
+S024,Kestrel KE-38510 headphones 10000mAh,KESTREL,KE38510,,1450.34,2000000000105
+S025,Kestrel Headphones Gen 3 256GB,Kestrel,KE-39125,Kestrel headphones generation 3 with 256GB and fast charging,738.89,2000000000106
+S026,Nimbus Laptop Gen 1 10000mAh,Nimbus,NI-11910,Nimbus laptop generation 1 with 10000mAh and fast charging,696.04,2000000000107
+S027,nimbus laptop gen 1 10000mah,NIMBUS,NI11910,,707.05,
+S028,Nimbus Laptop Gen 1 256GB,Nimbus,NI-15325,Nimbus laptop generation 1 with 256GB and wireless,154.84,2000000000108
+S029,nimbus laptop gen 1 256gb,NIMBUS,NI15325,,150.85,
+S030,Nimbus Laptop Gen 2 Pro,Nimbus,NI-289PR,Nimbus laptop generation 2 with Pro and 2 year warranty,587.39,2000000000109
+S031,nimbus laptop gen 2 pro,NIMBUS,NI289PR,Nimbus laptop generation 2 with Pro and 2 year warranty,589.22,
+S032,Nimbus Laptop Gen 2 64GB,Nimbus,NI-26364,Nimbus laptop generation 2 with 64GB and wireless,601.0,2000000000110
+S033,Nimbus Laptop Gen 3 Pro,Nimbus,NI-369PR,Nimbus laptop generation 3 with Pro and fast charging,792.48,2000000000111
+S034,Nimbus NI-369PR laptop Pro,NIMBUS,NI369PR,,778.63,2000000000111
+S035,Nimbus Laptop Gen 3 Lite,Nimbus,NI-399LI,Nimbus laptop generation 3 with Lite and fast charging,760.96,2000000000112
+S036,Nimbus NI-399LI laptop Lite,NIMBUS,NI399LI,Nimbus laptop generation 3 with Lite and fast charging,701.2,2000000000112
+S037,Arcadia Monitor Gen 1 27-inch,Arcadia,AR-15327,Arcadia monitor generation 1 with 27-inch and 2 year warranty,762.52,2000000000113
+S038,Arcadia AR-15327 monitor 27-inch,ARCADIA,AR15327,,721.2,2000000000113
+S039,Arcadia Monitor Gen 1 256GB,Arcadia,AR-13525,Arcadia monitor generation 1 with 256GB and USB-C,595.1,2000000000114
+S040,Arcadia AR-13525 monitor 256GB,ARCADIA,AR13525,Arcadia monitor generation 1 with 256GB and USB-C,557.9,2000000000114
+S041,Arcadia Monitor Gen 2 64GB,Arcadia,AR-24564,Arcadia monitor generation 2 with 64GB and USB-C,195.86,2000000000115
+S042,arcadia monitor gen 2 64gb,ARCADIA,AR24564,,189.93,
+S043,Arcadia Monitor Gen 2 128GB,Arcadia,AR-29612,Arcadia monitor generation 2 with 128GB and wireless,1082.93,2000000000116
+S044,Arcadia Monitor Gen 3 Pro,Arcadia,AR-319PR,Arcadia monitor generation 3 with Pro and fast charging,438.84,2000000000117
+S045,Arcadia Monitor G3 Pro,ARCADIA,AR319PR,,436.28,2000000000117
+S046,Arcadia Monitor Gen 3 10000mAh,Arcadia,AR-38210,Arcadia monitor generation 3 with 10000mAh and fast charging,972.25,2000000000118
+S047,arcadia monitor gen 3 10000mah,ARCADIA,AR38210,Arcadia monitor generation 3 with 10000mAh and fast charging,999.33,2000000000118
+S048,Volt Power Bank Gen 1 256GB,Volt,VO-19025,Volt power bank generation 1 with 256GB and fast charging,686.33,2000000000119
+S049,Volt Power Bank G1 256GB,VOLT,VO19025,,664.32,2000000000119
+S050,Volt Power Bank Gen 1 64GB,Volt,VO-13564,Volt power bank generation 1 with 64GB and USB-C,1241.04,2000000000120
+S051,Volt Power Bank G1 64GB,VOLT,VO13564,Volt power bank generation 1 with 64GB and USB-C,1217.94,
+S052,Volt Power Bank Gen 2 256GB,Volt,VO-24425,Volt power bank generation 2 with 256GB and wireless,823.34,2000000000121
+S053,Volt Power Bank Gen 2 27-inch,Volt,VO-27427,Volt power bank generation 2 with 27-inch and USB-C,608.47,2000000000122
+S054,Volt Power Bank Gen 3 27-inch,Volt,VO-36227,Volt power bank generation 3 with 27-inch and 2 year warranty,220.97,2000000000123
+S055,Volt Power Bank G3 27-inch,VOLT,VO36227,,203.49,
+S056,Volt Power Bank Gen 3 128GB,Volt,VO-39312,Volt power bank generation 3 with 128GB and wireless,711.65,2000000000124
+S057,volt power bank gen 3 128gb,VOLT,VO39312,Volt power bank generation 3 with 128GB and wireless,734.85,
+S058,Zephyr Robot Vacuum Gen 1 128GB,Zephyr,ZE-14112,Zephyr robot vacuum generation 1 with 128GB and 2 year warranty,1471.32,2000000000125
+S059,Zephyr Robot Vacuum Gen 1 27-inch,Zephyr,ZE-17827,Zephyr robot vacuum generation 1 with 27-inch and wireless,414.97,2000000000126
+S060,Zephyr Robot Vacuum Gen 2 64GB,Zephyr,ZE-27464,Zephyr robot vacuum generation 2 with 64GB and fast charging,84.59,2000000000127
+S061,Zephyr ZE-27464 robot vacuum 64GB,ZEPHYR,ZE27464,,83.18,2000000000127
+S062,Zephyr Robot Vacuum Gen 2 10000mAh,Zephyr,ZE-21810,Zephyr robot vacuum generation 2 with 10000mAh and 2 year warranty,1205.79,2000000000128
+S063,Zephyr ZE-21810 robot vacuum 10000mAh,ZEPHYR,ZE21810,,1252.91,2000000000128
+S064,Zephyr Robot Vacuum Gen 3 Lite,Zephyr,ZE-373LI,Zephyr robot vacuum generation 3 with Lite and fast charging,1144.02,2000000000129
+S065,Zephyr Robot Vacuum G3 Lite,ZEPHYR,ZE373LI,Zephyr robot vacuum generation 3 with Lite and fast charging,1160.89,
+S066,Zephyr Robot Vacuum Gen 3 Pro,Zephyr,ZE-376PR,Zephyr robot vacuum generation 3 with Pro and wireless,488.2,2000000000130
+S067,Zephyr Robot Vacuum G3 Pro,ZEPHYR,ZE376PR,Zephyr robot vacuum generation 3 with Pro and wireless,503.14,

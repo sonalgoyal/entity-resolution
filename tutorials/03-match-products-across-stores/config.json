@@ -1,0 +1,71 @@
+{
+  "fieldDefinition": [
+    {
+      "fieldName": "id",
+      "fields": "id",
+      "dataType": "string",
+      "matchType": "dont_use"
+    },
+    {
+      "fieldName": "title",
+      "fields": "title",
+      "dataType": "string",
+      "matchType": "fuzzy,numeric_with_units"
+    },
+    {
+      "fieldName": "description",
+      "fields": "description",
+      "dataType": "string",
+      "matchType": "text"
+    },
+    {
+      "fieldName": "manufacturer",
+      "fields": "manufacturer",
+      "dataType": "string",
+      "matchType": "fuzzy"
+    },
+    {
+      "fieldName": "price",
+      "fields": "price",
+      "dataType": "double",
+      "matchType": "fuzzy"
+    }
+  ],
+  "data": [
+    {
+      "name": "amazon",
+      "format": "csv",
+      "props": {
+        "path": "/tutorials/03-match-products-across-stores/data/Amazon.csv.gz",
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": "id string, title string, description string, manufacturer string, price double"
+    },
+    {
+      "name": "google",
+      "format": "csv",
+      "props": {
+        "path": "/tutorials/03-match-products-across-stores/data/GoogleProducts.csv.gz",
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": "id string, title string, description string, manufacturer string, price double"
+    }
+  ],
+  "output": [
+    {
+      "name": "output",
+      "format": "csv",
+      "props": {
+        "path": "/tmp/products-linked",
+        "delimiter": ",",
+        "header": true
+      }
+    }
+  ],
+  "labelDataSampleSize": 0.4,
+  "numPartitions": 4,
+  "modelId": "products",
+  "zinggDir": "/tmp/zingg-models"
+}
