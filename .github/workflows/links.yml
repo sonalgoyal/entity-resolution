@@ -25,7 +25,7 @@ jobs:
           args: >-
             --no-progress
             --max-retries 3
-            --accept 200,206,403,429
+            --accept 200,202,206,403,429
             --exclude-path _config.yml
             '**/*.md'
           fail: ${{ github.event_name != 'schedule' }}
